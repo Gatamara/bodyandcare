@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-lg  "style="background-color: #5e5e5e">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/img/logo-2.png" alt="Bootstrap" width="30" height="24">
+        </a>
+
+
+        <a class="navbar-brand" href="#">Body and Care</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Promociones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img/slider1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/slider4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <h2 class="title">Servicios</h2>
+  <section class="productos">
+    <div class="card text-center" style="width: 18rem;">
+      <img src="./assets/img/card-3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Paquete Quirurgico</h5>
+        <p class="card-text">Prepara con nosotros tu paquete pre y post quirúrgico, con las mejores técnicas para favorecer el proceso de tu cirugía y así obtener los resultados mega deseados más rápido y con la máxima seguridad!!
+        </p>
+        <a href="#" class="btn btn-light">Mas informacion</a>
+      </div>
+    </div>
+    <div class="card text-center  " style="width: 18rem;">
+      <img src="./assets/img/card-2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Hilos Revitalizantes</h5>
+        <p class="card-text" >Conoces los hilos revitalizantes PDO?
+          Son fibras creadas con un material seguro, reabsorbible y biocompatible llamado Polidioxanona, un tipo de sutura utilizada en cirugías cardiacas y oftalmológicas.</p>
+        <a href="#" class="btn btn-light"> Mas Informacion</a>
+      </div> 
+    </div>
+    <div class="card text-center  " style="width: 18rem;">
+      <img src="./assets/img/card-4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cuidados Post-cirugia</h5>
+        <p class="card-text" >Existen tratamientos específicos, altamente efectivos para preparar cualquier tipo de cirugía corporal invasiva o mínimamente invasiva y así también, para la etapa posterior de la cirugía </p>
+        <a href="#" class="btn btn-light"> Mas Informacion</a>
+      </div> 
+    </div>
+    <div class="card  text-center " style="width: 18rem;">
+      <img src="./assets/img/card-5.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lineas de expresion?</h5>
+        <p class="card-text" >¿Sabías que la piel es órgano más grande y extenso del cuerpo?
+          Por eso es importante darle los cuidados necesarios para mantenerla sana y hermosa.</p>
+        <a href="#" class="btn btn-light"> Mas Informacion</a>
+      </div> 
+    </div>
+  </section >
+  <section class="container text-center contacto">
+    <h2 class="title">
+      Contacto
+    </h2>
+    <p>Puedes comunicarte directamente en nuestro WhastApp o seguirme en Instagram</p>
+    
+    <div class="row justify-content-md-center">
+        <div class="contenedor-insta">
+
+         <iframe width="320" height="490" src="http://instagram.com/p/CjVvf1NLPT0/embed" frameborder="0"></iframe>
+    
+        </div>
+    </div>
+    
+   
+  </section>
+  <div class="reservar">
+    <h2 class="title">¿Como Reservar?</h2>
+    <div class="row container-fluid ">
+       <p>Agenda tu hora </p>
+    <a class="col" href="https://web.whatsapp.com/">
+      <img class="col" src="./assets/img/social-w.png" alt="Whatsaap">
+  </a>
+    </div>
+   
+  </div>
+  <footer class="footer">
+    <p>Servicio a domicilio La Serena y Coquimbo </p>
+        <ul class="social-media">
+            <li>
+                <a href="http://www.facebook.com">
+                    <img src="./assets/img/social-f.png" alt="facebook">
+
+                </a>
+            </li>
+            <li>
+                <a href="http://www.Instagram.com/bodyandcare.ls/">
+                    <img src="./assets/img/social-i.png" alt="Instagram">
+                </a>
+            </li>
+            <li>
+                <a href="https://web.whatsapp.com/">
+                    <img src="./assets/img/social-w.png" alt="Whatsaap">
+                </a>
+            </li>
+           
+        </ul>
+  </footer>
+  <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>

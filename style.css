@@ -1,0 +1,57 @@
+body {
+  background-color: #faaca8;
+  background-image: linear-gradient(19deg, #faaca8 0%, #5e5e5e 100%);
+
+  color: #ffffff;
+}
+.nav {
+  background-color: #5e585e;
+}
+.productos {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 10px;
+  background-color: #5e585e;
+  color: #faaca8;
+}
+.title {
+  text-align: center;
+  padding: 10px;
+}
+p {
+  text-align: center;
+}
+.footer {
+  background-color: #5e585e;
+  display: inline-flex;
+  padding: 5px 10px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.social-media {
+  padding: 0;
+  list-style: none;
+  margin: 0.5em;
+}
+.footer li {
+  display: inline-block;
+  margin: 0.1em;
+  padding: 0 10px;
+}
+.contenedor-insta {
+  height: 520px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.reservar {
+  background-image: url(./assets/img/v722-aum-27a.jpg);
+  background-position: inherit;
+  background-repeat: no-repeat;
+}
