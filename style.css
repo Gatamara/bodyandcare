@@ -51,7 +51,33 @@ p {
   margin-bottom: 10px;
 }
 .reservar {
-  background-image: url(./assets/img/v722-aum-27a.jpg);
-  background-position: inherit;
+  background-image: url(./assets/img/reservar.jpg);
+
   background-repeat: no-repeat;
+  background-size: cover;
+  backface-visibility: hidden;
+  padding: 5px 10px;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: 1s all;
+}
+.title2 {
+  color: #5e5e5e;
+}
+aside {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.img-mapa {
+  width: 380px;
+}
+.content-img {
+  width: auto;
 }
