@@ -29,11 +29,10 @@ p {
 }
 .footer {
   background-color: #5e585e;
-  display: inline-flex;
-  padding: 5px 10px;
+  display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 .social-media {
   padding: 0;
@@ -76,8 +75,5 @@ aside {
   padding: 10px;
 }
 .img-mapa {
-  width: 380px;
-}
-.content-img {
-  width: auto;
+  max-width: 350px;
 }
