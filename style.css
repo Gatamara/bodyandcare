@@ -37,7 +37,7 @@ p {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 20px 10px;
 }
 .social-media {
   padding: 0;
@@ -60,7 +60,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   backface-visibility: hidden;
-  padding: 5px 10px;
+  padding: 25px 10px;
 }
 .card:hover {
   transform: scale(1.05);
@@ -81,4 +81,10 @@ aside {
 }
 .img-mapa {
   max-width: 350px;
+}
+.card-map {
+  background-color: white;
+}
+.card-promo {
+  background-color: white;
 }
