@@ -13,7 +13,7 @@
     <div class="container ">
       <nav class="navbar bg-light navbar-expand-lg ">
         <div class="container-fluid ">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="./index.html">
             <img src="./assets/img/ROSA.png" alt="Logo" width="50" height="44" class="d-inline-block align-text-top">
             
           </a>
@@ -26,14 +26,26 @@
                 <a class="nav-link active" aria-current="page" href="#">Body and Care</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Promociones</a>
+                <a class="nav-link" href="#promociones">Promociones</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Servicios</a>
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#servicios" role="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                  servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./micropig.html">Micropigmentacion</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
               </li>
+              
               <li class="nav-item">
                 <a class="nav-link ">Contacto</a>
               </li>
+
+              
             </ul>
           </div>
         </div>
@@ -78,7 +90,7 @@
     </div>
   </div>
 
-<div class="promociones">
+<div class="promociones" id="promociones">
   <h2 class="title">Promociones</h2>
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
@@ -114,7 +126,7 @@
 
 </div>
 
-  <section class="productos">
+  <section class="servicios" id="servicios">
     <h2 class="title">Servicios</h2>
     <div class="section-pro">
 
@@ -207,6 +219,8 @@
      </div>
    </div><!-- END CONTAINER -->
  </section>
+
+ 
  <section class="container-fluid">
  
   <div class="card card-map mb-3 border-light col-lg-12" style="max-width: 540px;">
@@ -241,6 +255,9 @@
            
         </ul>
   </footer>
-  <script src="./assets/js/bootstrap.min.js"></script>
+ 
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+  
+   <script src="./assets/js/bootstrap.min.js"></script>
 </body>
 </html>
