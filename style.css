@@ -1,14 +1,6 @@
 body {
-  background-image: linear-gradient(
-    -225deg,
-    #f585bb 0%,
-    #926594 50%,
-    #564d6d 100%
-  );
+  background-color: #ffd8d7;
   color: #ffffff;
-}
-.nav {
-  background-color: #5e585e;
 }
 
 .section-pro {
@@ -22,18 +14,28 @@ body {
 
 .card {
   margin: 10px;
-  background-color: #5e585e;
+
   color: #faaca8;
+}
+
+.nav-link {
+  letter-spacing: 2px;
 }
 .title {
   text-align: center;
   padding: 10px;
+  background-color: #ffffff;
+  color: #917a84;
+
+  margin-top: 10px;
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
 }
 p {
   text-align: center;
 }
 .footer {
-  background-color: #5e585e;
+  background-color: #917a84;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -68,7 +70,7 @@ p {
   transition: 1s all;
 } */
 .title2 {
-  color: #5e5e5e;
+  color: #917a84;
 }
 aside {
   width: 100%;
